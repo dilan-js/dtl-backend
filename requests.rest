@@ -1,0 +1,24 @@
+
+POST http://localhost:8080/signup HTTP/1.1
+content-type: application/json
+
+{
+     "name": "Señora Bilder",
+    "phone": "83893943",
+    "password": "hello-world"
+}
+###
+
+POST http://localhost:8080/login HTTP/1.1
+content-type: application/json
+{
+    "phone": "146-612-2996",
+    "password": "$2b$10$q38IodxbJBUqddtS.hac9eLqNHdhByDEvccZkbVMxUoDESppFf5vi"
+}
+
+# ###
+
+# GET http://localhost:8080/getFriendGrid HTTP/1.1
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2XDsW9yYSBCaWxkZXIiLCJwaG9uZSI6IjgzODkzOTQzIiwiZnJpZW5kcyI6W10sIl9pZCI6IjYyYjI4NTViNDZmMmUxZDI4ZDU0OTcyOCIsInBhc3N3b3JkIjoiJDJiJDEwJEJZLk4yMlBYQlpCeTdOUU1KaUZkdE9CZ002Zi9kRkZ0ZG1meDVhRldpZTEwbi5teFA0Q0Z1IiwiaWF0IjoxNjU1ODY2NzE1fQ.6GsgGUDdl3yx1nXEbBVE7AaHaL7GfDnNIEd9auVYQMo 
+# content-type: application/json
+

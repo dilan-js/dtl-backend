@@ -1,0 +1,33 @@
+if an account is deleted, then the token needs to expire. 
+we need to find a user with ever authentication of a token. 
+
+
+dilan : 
+mutuals: viran
+
+viran: 
+mutuals: dilan
+
+
+restaurant.uberinternal.com = WRM
+
+to make charts: lucidapp/lucid charts
+
+set up web monorepo for WRM
+
+docstore -- storage.uberinternal
+
+cadence workflow -- look up tutorial 
+
+
+starts cadence jobs with cadence. cadenc actiities which the cadence script workflow is a collection of disparate activities that parent wokrflow stitches togetehr. 
+Restaurant worker -> executes the activities for 
+
+https://codelabs.uberinternal.com/golang/220
+
+uworc
+flipr
+
+
+meet about going to merchants to talk about going to them. 
+
